@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Kalender ja kuup2ev
+#
+echo -n "Today is " # V2ljastab teksti today is.
+echo `date +"%A, %B %d, %Y"` # N2itab t2nast kuup2eva.
+echo -n "Time is " # V2ljastab Time is
+echo `date +"%T"` # V2ljastab kella aja
+echo " " # V2ljastab tyhiku
+echo -n "Calender of" # V2ljastab Calender of
+cal # V2ljastab kalendri
+#
+# Skripti l6petus

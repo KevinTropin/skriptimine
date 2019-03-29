@@ -1,0 +1,15 @@
+#!/bin/bash
+# 
+# Enesekirjeldamine
+#
+echo -n "Minu nimi on " # v2ljastab kirja Minu nimi on koos tyhiku ja reavahetuseta
+echo "Kevin Tropin" # V2ljastab Kevin Tropin koos reavahetusega
+echo -n "6pin " # V2ljastab kirja 6pin koos tyhiku ja reavahetuseta
+echo -n "ISP118 " # V2ljastab minu 6ppegrupi numbri
+echo "grupis" # v2ljastab Grupis
+echo -n "Antud aine tundub " #Aine tuvustus
+echo "Asjalik, Hariv, Huvitav, kogemusi vajav." # Aine tutvustuss6nad
+echo "Oskan natukene HTML koodi kuid niipalju kui vaba aega tekib 6pin juurde uusi keeli." # L6petus
+#
+# Skripti L6pp
+

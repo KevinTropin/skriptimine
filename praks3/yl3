@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Praks3 Ylesanne3
+#
+echo -n " skriptimine at " # V2ljastab kirja skriptimine at
+echo -e `uptime | cut -f1 -d ","` # Kirjastab v2lja vastava teksti
+#
+# Skripti l6pp

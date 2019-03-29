@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# Skript mis kysib iskikult tema nime ja tervitab teda
+#
+echo -n "Sisestage oma ees- ja perenimi: " # Kysib kylastaja nime
+read name surname # Kysib ja loeb isiku nime
+echo "Tere tulemast, $name $surname." # Tervitab isikut
+echo " " # Sisestab tyhja rea
+#
+# Skripti l6petus

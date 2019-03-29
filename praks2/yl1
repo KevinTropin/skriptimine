@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Tervitusskripti kirjutamine
+#
+echo -n "Tere, " # V2ljastab Tere, koos tyhikuga ja ilma reavahetuseta
+echo -n "User" # V2ljastab User ilma reavahetuseta
+echo "!" # V2ljastab ! koos reavahetusega
+#
+# Skripti l6petus

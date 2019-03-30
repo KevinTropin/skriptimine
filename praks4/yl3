@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Bussi arvutus
+#
+echo "Sisestage istekohtade arv bussis: "
+read isted
+echo "Sisestage reisijate arv grupis: "
+read inimesed
+kokku=`expr $isted - $inimesed`
+t2idetud=`expr $inimesed / $isted`
+echo "T2idetud busse on" `expr $t2idetud` "Maha j2i" `expr $kokku` "inimest"
+#
+# Skripti l6petus

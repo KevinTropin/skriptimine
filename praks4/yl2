@@ -1,0 +1,25 @@
+#!/bin/bash
+#
+# Kokkadele abiks kypsisetordi valmistamisel
+#
+echo -n "Sisestage kandiku pikkus cm-tes= " # Kysib kylastajalt kandiku pikkust cm-tes
+read a # Loeb kandiku pikkust
+echo -n "Sisestage kandiku laius cm-tes= " #  Kysib kylasajalt kandiku laiust cm-tes 
+read b # Loeb kandiku laiust
+kandik=$(( $a*$b )) #  Teeb arvutusi A ja B loenguga
+echo -n "Sisestage kypsiste pikkus cm-tes= " # Kysib kylastajalt kypsiste pikkust cm-tes
+read c # Loeb kypsiste pikkust
+echo -n "Sisestage kypsiste laius cm-tes= " # Kysib kylastajalt kypsiste laiust cm-tes
+read d # Loeb kypsiste laiust
+kypsis=$(( $a*$b )) # Teeb arvutusi C ja B variandiga
+echo -n "Sisestage kihtide arv tordil= " # Kysib kylastajalt koogi kihtide arvu
+read e # Loeb Kihtide arvu tordil
+echo -n "Sisestage kypsiste arv pakis= " # Kysib kylastajalt kypsiste arvu paki kohta
+read f # Loeb kypsiste arvu paki kohta
+one=$(( $kandik/$kypsis )) 
+kiht=$(( $one*$e ))
+vast=$(( $kiht/$f ))
+echo -n "Poest tuleb osta $vast pakki kypsiseid." # Vastab kylastajatele kogu vastuse
+#
+# Skripti l6petamine
+

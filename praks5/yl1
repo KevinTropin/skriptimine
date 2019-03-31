@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Hypotenuusi arvutamis yl1.
+#
+echo -n "Sisesta kyljed: "
+read x1 x2
+ruut1=`echo "scale=2;($x1^2)" | bc`
+ruut2=`echo "scale=2;($x2^2)" | bc`
+ruut3=`echo "scale=2;($ruut1+$ruut2)" | bc`
+x=`echo "scale=2;sqrt ($ruut3)" | bc`
+echo "x = $x" 
+#
+# Skripti l6petus
